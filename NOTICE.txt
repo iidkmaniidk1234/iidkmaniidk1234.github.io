@@ -1,0 +1,35 @@
+CarBrowser (device-rendered version)
+Copyright (C) 2026 CarBrowser contributors
+License: GNU Affero General Public License version 3 only (AGPL-3.0-only).
+This program is provided without warranty. See LICENSE in the source archive.
+
+Download CarBrowser's complete application source and deployment files:
+  /source.tar.gz
+The archive includes the exact dependency lockfile. The dependencies below are
+unmodified upstream releases on disk. CarBrowser's flow-control.js installs a
+runtime TCP-credit correction for wisp-js 0.5.2; its full source is in the archive.
+Their corresponding source/build instructions and
+licenses are available from the linked upstream projects; preserve their notices
+when redistributing. The npm registry packages contain browser assets/source maps.
+
+Scramjet 2.0.67-alpha.2, scramjet-controller 0.0.14, scramjet-utils 0.0.3
+  Copyright their respective contributors. AGPL-3.0-only.
+  https://github.com/MercuryWorkshop/scramjet/tree/1d3664022434665a51e530a44aebcf616b06d601
+  https://github.com/MercuryWorkshop/scramjet
+  https://www.npmjs.com/package/@mercuryworkshop/scramjet/v/2.0.67-alpha.2
+  https://www.npmjs.com/package/@mercuryworkshop/scramjet-controller/v/0.0.14
+  https://www.npmjs.com/package/@mercuryworkshop/scramjet-utils/v/0.0.3
+
+libcurl-transport 2.0.6 (AGPL-3.0-only)
+  https://github.com/MercuryWorkshop/libcurl-transport
+  https://www.npmjs.com/package/@mercuryworkshop/libcurl-transport/v/2.0.6
+libcurl.js 0.7.5 (LGPL-3.0-or-later)
+  https://github.com/ading2210/libcurl.js/tree/2b6cff872414dd248437a9a9fe5cf84d62ecd64c
+  Build instructions: https://github.com/ading2210/libcurl.js#building
+wisp-js 0.5.2 (LGPL-3.0-or-later)
+  https://github.com/MercuryWorkshop/wisp-js
+
+Express, ws, ipaddr.js and transitive dependencies retain their individual
+upstream licenses. Exact versions/integrity hashes are in package-lock.json.
+Galaxy photo attribution: /media/CREDITS.txt.
+The drifting-car SVG and CarBrowser application source are included in the archive.
